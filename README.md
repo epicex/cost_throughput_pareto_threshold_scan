@@ -1,11 +1,11 @@
-# gpuops_jd371
+# cost_throughput_pareto_threshold_scan
 
 **给GPU 集群运维工程师·成本与吞吐的帕累托边界打分并按阈值给出通过与否。**
 
-`gpuops_jd371` —— 为每一项打分并与阈值比较，明确标出通过、边界与不通过三档
+`cost_throughput_pareto_threshold_scan` —— 为每一项打分并与阈值比较，明确标出通过、边界与不通过三档
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`gpuops_jd371.py` 拷走就能用
+- 单文件，`cost_throughput_pareto_threshold_scan.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install epicex-gpuops_jd371
+pip install epicex-cost_throughput_pareto_threshold_scan
 ```
 
 装完直接用命令名调用：
 
 ```bash
-gpuops_jd371 --help
+cost_throughput_pareto_threshold_scan --help
 ```
 
-也可以不用安装，直接把 `gpuops_jd371.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `cost_throughput_pareto_threshold_scan.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ gpuops_jd371 --help
 ## 用法
 
 ```bash
-python gpuops_jd371.py --file input.txt
-python gpuops_jd371.py --text "示例内容"
-python gpuops_jd371.py --file input.txt --json
+python cost_throughput_pareto_threshold_scan.py --file input.txt
+python cost_throughput_pareto_threshold_scan.py --text "示例内容"
+python cost_throughput_pareto_threshold_scan.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python gpuops_jd371.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_gpuops_jd371.py
+python test_cost_throughput_pareto_threshold_scan.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_gpuops_jd371.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/epicex/gpuops_jd371>
+- GitHub 仓库：<https://github.com/epicex/cost_throughput_pareto_threshold_scan>
 
 ---
 
@@ -79,7 +79,7 @@ python test_gpuops_jd371.py
 epicex 做GPU 集群运维工程师·成本与吞吐的帕累托边界相关的问题，方向对标无问芯穹的负责人GPU 集群运维工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://epicex.github.io>
-- 仓库：<https://github.com/epicex/gpuops_jd371>
+- 仓库：<https://github.com/epicex/cost_throughput_pareto_threshold_scan>
 
 ## 许可
 

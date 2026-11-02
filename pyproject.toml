@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "epicex-gpuops_jd371"
+name = "epicex-cost_throughput_pareto_threshold_scan"
 version = "0.1.0"
 description = "为每一项打分并与阈值比较，明确标出通过、边界与不通过三档"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://epicex.github.io"
-Repository = "https://github.com/epicex/gpuops_jd371"
-Issues = "https://github.com/epicex/gpuops_jd371/issues"
+Repository = "https://github.com/epicex/cost_throughput_pareto_threshold_scan"
+Issues = "https://github.com/epicex/cost_throughput_pareto_threshold_scan/issues"
 
 [project.scripts]
-gpuops_jd371 = "gpuops_jd371:main"
+cost_throughput_pareto_threshold_scan = "cost_throughput_pareto_threshold_scan:main"
 
 [tool.setuptools]
-py-modules = ["gpuops_jd371"]
+py-modules = ["cost_throughput_pareto_threshold_scan"]
